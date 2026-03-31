@@ -102,7 +102,7 @@ export function SiteFooter() {
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <p className="text-base text-white/95">
-              Copyright {"\u00a9"} {currentYear} Payuno. All Rights Reserved.
+              Copyright {"\u00a9"} {currentYear} CreatiPay. All Rights Reserved.
             </p>
 
             <ul className="flex items-center gap-6">

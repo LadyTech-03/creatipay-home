@@ -14,7 +14,7 @@ export type HelpCenterFaq = {
 };
 
 const answerTemplate: string[] = [
-  "Tap the relevant option from your Payuno dashboard.",
+  "Tap the relevant option from your CreatiPay dashboard.",
   "Review the available instructions and choose the preferred method.",
   "Complete the requested details and confirm the action.",
   "Use secure verification (OTP or biometric) when prompted.",
@@ -35,11 +35,11 @@ const addingMoneyFaqs: HelpCenterFaq[] = [
     answer: answerTemplate,
   },
   {
-    question: "How do I transfer money to my Payuno account from a bank account?",
+    question: "How do I transfer money to my CreatiPay account from a bank account?",
     answer: answerTemplate,
   },
   {
-    question: "Can I get my salary paid into my Payuno account?",
+    question: "Can I get my salary paid into my CreatiPay account?",
     answer: answerTemplate,
   },
   {
@@ -47,7 +47,7 @@ const addingMoneyFaqs: HelpCenterFaq[] = [
     answer: answerTemplate,
   },
   {
-    question: "How long will it take for the amount to be transferred into my Payuno account?",
+    question: "How long will it take for the amount to be transferred into my CreatiPay account?",
     answer: answerTemplate,
   },
 ];
@@ -56,7 +56,7 @@ function genericFaqs(label: string): HelpCenterFaq[] {
   const lower = label.toLowerCase();
 
   return [
-    { question: `How does ${label} work on Payuno?`, answer: answerTemplate },
+    { question: `How does ${label} work on CreatiPay?`, answer: answerTemplate },
     { question: `Is ${lower} safe to use?`, answer: answerTemplate },
     { question: `Can I use ${lower} internationally?`, answer: answerTemplate },
     { question: `How long do ${lower} updates take?`, answer: answerTemplate },
@@ -68,8 +68,8 @@ function genericFaqs(label: string): HelpCenterFaq[] {
 
 export const helpCenterTopics: HelpCenterTopic[] = [
   {
-    slug: "about-payuno",
-    label: "About Payuno",
+    slug: "about-creatiPay",
+    label: "About CreatiPay",
     icon: "/images/icon/personal-icon-1.png",
     primaryGroup: "personal",
     groups: ["personal", "business"],
@@ -89,8 +89,8 @@ export const helpCenterTopics: HelpCenterTopic[] = [
     groups: ["personal", "business"],
   },
   {
-    slug: "payuno-card",
-    label: "Payuno Card",
+    slug: "creatiPay-card",
+    label: "CreatiPay Card",
     icon: "/images/icon/personal-icon-4.png",
     primaryGroup: "personal",
     groups: ["personal", "business"],

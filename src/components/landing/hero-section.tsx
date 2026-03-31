@@ -55,7 +55,7 @@ export function HeroSection() {
 
                 <p className="mt-4 max-w-2xl text-[clamp(1.2rem,1.5vw,2rem)] leading-[1.35] text-[#1f3a7f]">
                   Quickly and easily send, receive and request money online with
-                  Payuno.
+                  CreatiPay.
                 </p>
 
                 <div className="mt-8 flex flex-wrap gap-4">
