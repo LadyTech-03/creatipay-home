@@ -103,8 +103,8 @@ export function SiteHeader() {
 
             <SheetContent side="right" className="w-[min(88vw,24rem)] p-0">
               <SheetHeader className="border-b border-border/70 bg-muted/40">
-                <SheetTitle>Navigation</SheetTitle>
-                <SheetDescription>
+                <SheetTitle>Menu</SheetTitle>
+                <SheetDescription className={'sr-only'}>
                   Browse sections and account entry points.
                 </SheetDescription>
               </SheetHeader>
@@ -113,9 +113,9 @@ export function SiteHeader() {
                 {headerMenuGroups.map((group) => (
                   <details
                     key={group.label}
-                    className="rounded-xl border border-border/70 bg-card px-3 py-2"
+                    className="rounded-xl border border-border/70 bg-blue-800 px-3 py-2 "
                   >
-                    <summary className="flex cursor-pointer list-none items-center justify-between py-1 text-sm font-semibold text-foreground [&::-webkit-details-marker]:hidden">
+                    <summary className="flex cursor-pointer list-none items-center justify-between py-1 text-sm font-semibold text-primary-foreground [&::-webkit-details-marker]:hidden">
                       <span>{group.label}</span>
                     </summary>
                     <ul className="mt-2 space-y-1 border-t border-border/60 pt-2">
@@ -123,7 +123,7 @@ export function SiteHeader() {
                         <li key={link.label}>
                           <Link
                             href={link.href}
-                            className="block rounded-lg px-2 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                            className="block rounded-lg px-2 py-1.5 text-sm text-primary-foreground transition-colors hover:bg-muted hover:text-foreground"
                           >
                             {link.label}
                           </Link>
