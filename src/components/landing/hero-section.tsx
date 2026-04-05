@@ -74,19 +74,15 @@ export function HeroSection() {
                 </div>
               </div>
 
-              <aside className="w-full max-w-[430px] justify-self-center rounded-xl bg-white p-5 shadow-[2px_3px_24px_0_rgba(106,105,194,0.25)] lg:justify-self-end">
+              <aside className="w-full max-w-107.5 justify-self-center rounded-xl bg-white p-5 shadow-[2px_3px_24px_0_rgba(106,105,194,0.25)] lg:justify-self-end">
                 <div className="rounded-md bg-[#edefff] p-5">
                   <p className="text-base font-semibold text-[#0c266c]">
-                    Conversion Card Placeholder
-                  </p>
-                  <p className="mt-2 text-sm leading-relaxed text-[#30447d]">
-                    We will implement the full send/receive conversion experience
-                    in a future stage.
+                    Live Currency or FX conversion will be implemented here (good rates, service fees and more to give the users a real feel of the actual platform and reasonable rates)...
                   </p>
                 </div>
 
                 <div className="mt-5 rounded-lg border border-dashed border-[#bcc8ee] bg-[#f7f8ff] px-4 py-10 text-center text-sm font-medium text-[#5d6fa5]">
-                  Future implementation area
+                  
                 </div>
 
                 <Link

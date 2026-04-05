@@ -11,7 +11,7 @@ import {
 } from "@/content/help-center";
 
 export function HelpCenterTopicsSection() {
-  const [activeTab, setActiveTab] = useState<HelpCenterGroup>("personal");
+  const [activeTab, setActiveTab] = useState<HelpCenterGroup>("business");
 
   const topics = useMemo(
     () => (activeTab === "personal" ? personalHelpTopics : businessHelpTopics),
@@ -21,7 +21,7 @@ export function HelpCenterTopicsSection() {
   return (
     <section className="relative -mt-10 pb-24">
       <div className="shell-container">
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <div className="inline-flex rounded-[30px] border border-[#e7e7ff] bg-white px-2 py-2">
             <button
               type="button"
@@ -46,9 +46,9 @@ export function HelpCenterTopicsSection() {
               business
             </button>
           </div>
-        </div>
+        </div> */}
 
-        <div className="mt-10 grid justify-center gap-7 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="mt-20 grid justify-center gap-7 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {topics.map((topic) => (
             <Link
               key={`${activeTab}-${topic.slug}`}

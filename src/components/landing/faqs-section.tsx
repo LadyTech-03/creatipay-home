@@ -19,8 +19,8 @@ const leftFaqItems: FaqItem[] = [
   { question: "How to send money online?", answer: faqAnswer },
   { question: "How much are money transfer fees?", answer: faqAnswer },
   { question: "What is the fastest way to send money abroad?", answer: faqAnswer },
-  { question: "How to use Payuno?", answer: faqAnswer },
-  { question: "How does Payuno protect your money?", answer: faqAnswer },
+  { question: "How to use CreatiPay?", answer: faqAnswer },
+  { question: "How does CreatiPay protect your money?", answer: faqAnswer },
 ];
 
 const rightFaqItems: FaqItem[] = [

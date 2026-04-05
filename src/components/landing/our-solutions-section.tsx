@@ -5,25 +5,25 @@ const solutionItems = [
     icon: "/images/icon/our-solutions-icon-1.png",
     title: "Payments",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Send secure cross-border payouts to anyone, anywhere, in real-time.",
   },
   {
     icon: "/images/icon/our-solutions-icon-2.png",
     title: "Collections",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Receive payments worldwide with multi-currency support and automated reconciliation.",
   },
   {
     icon: "/images/icon/our-solutions-icon-3.png",
     title: "Conversions",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Access the best FX rates with smart routing and instant currency swaps.",
   },
   {
     icon: "/images/icon/our-solutions-icon-4.png",
     title: "Global Account",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Hold and manage multiple currencies from one central dashboard.",
   },
 ] as const;
 

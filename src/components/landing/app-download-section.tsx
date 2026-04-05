@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const appFeatures = [
   "Login with fingerprint or Face ID.",
-  "Simple few Taps to send money",
+  "Simple few Taps to send/receive money",
   "View transaction history.",
   "Get instant App notifications.",
 ] as const;
@@ -24,7 +24,7 @@ export function AppDownloadSection() {
 
           <div className="order-1 lg:order-2">
             <p className="text-2xl font-semibold text-brand-700">
-              App Download
+              App Download <sup className="text-sm italic">(Coming Soon*)</sup>
             </p>
 
             <h2

@@ -2,28 +2,28 @@ import Image from "next/image";
 
 const globalPaymentFeatures = [
   {
-    icon: "/images/icon/global-payment-icon-2.png",
-    title: "Peace of Mind",
+    icon: "/images/payment-banner-bg.png",
+    title: "Secure Global Payouts",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio.",
+      "Our Tokenized Infrastructure unlocks programmable, automated payments for highly secure and conditional settlements.",
   },
   {
     icon: "/images/icon/global-payment-icon-2.png",
-    title: "Business-Ready",
+    title: "Regulated & Compliant",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio.",
+      "We operate within Regulated Remittance frameworks to ensure every transaction meets global financial standards.",
   },
   {
     icon: "/images/icon/global-payment-icon-3.png",
-    title: "100% Transparent",
+    title: "Intelligent FX Optimization",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio.",
+      "We optimize currency conversion and payment paths to ensure you get the best possible rates with total fee transparency.",
   },
   {
     icon: "/images/icon/global-payment-icon-4.png",
-    title: "International Network",
+    title: "Collaborative Distribution",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit posuere vel venenatis, eu sit massa. Volutpat massa rhoncus odio.",
+      "Our Multi-Party Revenue Distribution system automates complex splits, making it easy to pay collaborators instantly.",
   },
 ] as const;
 

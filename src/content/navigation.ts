@@ -10,43 +10,44 @@ export type MenuGroup = {
 
 export const headerMenuGroups: MenuGroup[] = [
   {
-    label: "Personal",
+    label: "Services",
     links: [
-      { label: "Freelancer Payments", href: "#" },
-      { label: "Subscriptions", href: "#" },
-      { label: "Security", href: "#" },
-      { label: "Fees", href: "#" },
+      { label: "International Transfers", href: "#" },
+      { label: "Platform subscriptions", href: "#" },
+      { label: "more will be added", href: "#" },
+      // { label: "Security", href: "#" },
+      // { label: "Fees", href: "#" },
     ],
   },
-  {
-    label: "Business",
-    links: [
-      { label: "Business Payments", href: "#" },
-      { label: "Business Account", href: "#" },
-      { label: "Corporate Card", href: "#" },
-      { label: "Expense Management", href: "#" },
-      { label: "Budgeting", href: "#" },
-      { label: "Integrations", href: "#" },
-      { label: "Invoice", href: "#" },
-      { label: "Rewards", href: "#" },
-      { label: "Fees", href: "#" },
-    ],
-  },
+  // {
+  //   label: "Business",
+  //   links: [
+  //     { label: "Business Payments", href: "#" },
+  //     { label: "Business Account", href: "#" },
+  //     { label: "Corporate Card", href: "#" },
+  //     { label: "Expense Management", href: "#" },
+  //     { label: "Budgeting", href: "#" },
+  //     { label: "Integrations", href: "#" },
+  //     { label: "Invoice", href: "#" },
+  //     { label: "Rewards", href: "#" },
+  //     { label: "Fees", href: "#" },
+  //   ],
+  // },
   {
     label: "Company",
     links: [
       { label: "About Us", href: "#" },
       { label: "Career", href: "#" },
-      { label: "Career Details", href: "#" },
+      // { label: "Career Details", href: "#" },
       { label: "Blog", href: "#" },
-      { label: "Blog Details", href: "#" },
+      { label: "Privacy Policy", href: "#" },
     ],
   },
   {
     label: "Help",
     links: [
       { label: "Help Center", href: "/help-center" },
-      { label: "Help Category", href: "/help-center/adding-money" },
+      // { label: "Help Category", href: "/help-center/adding-money" },
     ],
   },
 ];
