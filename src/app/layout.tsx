@@ -15,12 +15,12 @@ const brandSans = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: "Paylio | Financial Advisors",
-    template: "%s | Paylio",
+    default: "CreatiPay | Financial Services for Everyone",
+    template: "%s | CreatiPay",
   },
   description:
-    "Paylio provides fast, secure money movement experiences for personal and business customers.",
-  applicationName: "Paylio",
+    "CreatiPay provides fast, secure money movement experiences for personal and business customers.",
+  applicationName: "CreatiPay",
 };
 
 export default function RootLayout({
